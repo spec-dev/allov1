@@ -1,0 +1,34 @@
+{
+  "namespace": "allov1",
+  "groups": [
+    {
+      "name": "QFVotingStrategyFactory",
+      "contracts": [
+        {
+          "chainId": 5,
+          "address": "0x06a6cc566c5a88e77b1353cdc3110c2e6c828e38"
+        },
+        {
+          "chainId": 10,
+          "address": "0x838c5e10dcc1e54d62761d994722367ba167ac22"
+        },
+        {
+          "chainId": 137,
+          "address": "0xc1a26b0789c3e93b07713e90596cad8d0442c826"
+        },
+        {
+          "chainId": 424,
+          "address": "0x2afa4be0f2468347a2f086c2167630fb1e58b725"
+        },
+        {
+          "chainId": 42161,
+          "address": "0xc3a195eea198e74d67671732e1b8f8a23781d735"
+        }
+      ]
+    },
+    {
+      "name": "QFVotingContract",
+      "isFactoryGroup": true
+    }
+  ]
+}

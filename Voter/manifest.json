@@ -1,0 +1,7 @@
+{
+    "namespace": "allov1",
+    "name": "Voter",
+    "version": "0.0.1",
+    "displayName": "Allo Voters",
+    "description": "Unique voters across all rounds on Allo V1."
+}
