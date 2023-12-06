@@ -19,10 +19,6 @@
         {
           "chainId": 424,
           "address": "0x2afa4be0f2468347a2f086c2167630fb1e58b725"
-        },
-        {
-          "chainId": 42161,
-          "address": "0xc3a195eea198e74d67671732e1b8f8a23781d735"
         }
       ]
     },

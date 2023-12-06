@@ -15,8 +15,8 @@ class Voter extends LiveTable {
     
     @OnEvent('allov1.QFVotingStrategyFactory.VotingContractCreated')
     onVotingContractCreated(event: Event) {
-        const roundAddress = event.data.votingContractAddress
-        this.addContractToGroup(roundAddress, 'allov1.QFVotingContract')
+        const { votingContractAddress } = event.data
+        this.addContractToGroup(votingContractAddress, 'allov1.QFVotingContract')
     }
 
     @OnEvent('allov1.QFVotingContract.Voted') 

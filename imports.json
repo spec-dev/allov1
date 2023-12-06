@@ -1,5 +1,0 @@
-{
-    "imports": {
-        "@spec.dev/core": "https://esm.sh/@spec.dev/core@0.0.140"
-    }
-}
