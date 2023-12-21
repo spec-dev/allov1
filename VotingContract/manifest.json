@@ -1,7 +1,7 @@
 {
     "namespace": "allov1",
     "name": "VotingContract",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "displayName": "Allo Voting Contracts",
     "description": "Voting contracts on Allo V1."
 }
