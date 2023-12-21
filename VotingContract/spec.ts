@@ -8,7 +8,7 @@ class VotingContract extends LiveTable {
     @Property()
     address: Address
 
-    // ==== Event Handlers ===================
+    // ---- Event Handlers -------
     
     @OnEvent('allov1.QFVotingStrategyFactory.VotingContractCreated')
     onVotingContractCreated(event: Event) {
